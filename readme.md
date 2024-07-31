@@ -73,9 +73,9 @@ class YourModel Extends \Illuminate\Database\Eloquent\Model
     }
 
     /** @var string */
-    protected nanoidAlphabet = 'ABC';
+    protected $nanoidAlphabet = 'ABC';
     // or
-    public function nanoidAlphabet(): stirng {
+    public function nanoidAlphabet(): string {
         return 'ABC'; // pay_ACBACB
     }
 
